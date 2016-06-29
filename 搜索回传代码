@@ -1,0 +1,22 @@
+用于收集用户搜索关键词，计算选购率，分析访客站内行为。
+请将以下代码放到您的【搜索结果页】的</body>标签前
+
+<script type="text/javascript">
+var _mvq = window._mvq || []; 
+window._mvq = _mvq;
+_mvq.push(['$setAccount', 'm-228654-0']);
+
+_mvq.push(['$setGeneral', 'searchresult', '', /*用户名*/ '', /*用户id*/ '']);
+_mvq.push(['$logConversion']);
+_mvq.push(['$addSearchResult', /*搜素关键词*/ '', /*搜索结果数*/ '']);
+_mvq.push(['$logData']);
+</script>
+
+//请将变量放入引号内，例如：/*用户名*/ 'demo@fenxi.com'
+						
+需要配置的变量
+1.用户名
+2.用户id
+3.搜素关键词
+4.搜索结果数
+恢复默认值
