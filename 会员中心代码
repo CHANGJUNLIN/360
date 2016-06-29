@@ -1,0 +1,112 @@
+用于站内运营区分页面类型，计算访问量及浏览量。
+请将以下代码放到您的【会员中心首页】的</body>标签前
+
+<script type="text/javascript">
+var _mvq = window._mvq || []; 
+window._mvq = _mvq;
+_mvq.push(['$setAccount', 'm-228654-0']);
+
+_mvq.push(['$setGeneral', 'memberindex', '', /*用户名*/ '', /*用户id*/ '']);
+_mvq.push(['$logConversion']);
+
+</script>
+
+//请将变量放入引号内，例如：/*用户名*/ 'demo@fenxi.com'
+						
+需要配置的变量
+1.用户名
+2.用户id
+恢复默认值
+请将以下代码放到您的【我的订单】的</body>标签前
+
+<script type="text/javascript">
+var _mvq = window._mvq || []; 
+window._mvq = _mvq;
+_mvq.push(['$setAccount', 'm-228654-0']);
+
+_mvq.push(['$setGeneral', 'memberorder', '', /*用户名*/ '', /*用户id*/ '']);
+_mvq.push(['$logConversion']);
+
+</script>
+
+//请将变量放入引号内，例如：/*用户名*/ 'demo@fenxi.com'
+						
+需要配置的变量
+1.用户名
+2.用户id
+恢复默认值
+请将以下代码放到您的【我的积分】的</body>标签前
+
+<script type="text/javascript">
+var _mvq = window._mvq || []; 
+window._mvq = _mvq;
+_mvq.push(['$setAccount', 'm-228654-0']);
+
+_mvq.push(['$setGeneral', 'memberpoint', '', /*用户名*/ '', /*用户id*/ '']);
+_mvq.push(['$logConversion']);
+
+</script>
+
+//请将变量放入引号内，例如：/*用户名*/ 'demo@fenxi.com'
+						
+需要配置的变量
+1.用户名
+2.用户id
+恢复默认值
+请将以下代码放到您的【商品收藏】的</body>标签前
+
+<script type="text/javascript">
+var _mvq = window._mvq || []; 
+window._mvq = _mvq;
+_mvq.push(['$setAccount', 'm-228654-0']);
+
+_mvq.push(['$setGeneral', 'memberfavorite', '', /*用户名*/ '', /*用户id*/ '']);
+_mvq.push(['$logConversion']);
+_mvq.push(['$addGoodsFavorite', /*商品id*/ '', /*商品名称*/ '']);
+_mvq.push(['$logData']);
+</script>
+
+//请将变量放入引号内，例如：/*用户名*/ 'demo@fenxi.com'
+						
+需要配置的变量
+1.用户名
+2.用户id
+3.商品id
+4.商品名称
+恢复默认值
+请将以下代码放到您的【最近购买的商品】的</body>标签前
+
+<script type="text/javascript">
+var _mvq = window._mvq || []; 
+window._mvq = _mvq;
+_mvq.push(['$setAccount', 'm-228654-0']);
+
+_mvq.push(['$setGeneral', 'memberbuy', '', /*用户名*/ '', /*用户id*/ '']);
+_mvq.push(['$logConversion']);
+
+</script>
+
+//请将变量放入引号内，例如：/*用户名*/ 'demo@fenxi.com'
+						
+需要配置的变量
+1.用户名
+2.用户id
+恢复默认值
+请将以下代码放到您的【评论与咨询】的</body>标签前
+
+<script type="text/javascript">
+var _mvq = window._mvq || []; 
+window._mvq = _mvq;
+_mvq.push(['$setAccount', 'm-228654-0']);
+
+_mvq.push(['$setGeneral', 'comment', '', /*用户名*/ '', /*用户id*/ '']);
+_mvq.push(['$logConversion']);
+
+</script>
+
+//请将变量放入引号内，例如：/*用户名*/ 'demo@fenxi.com'
+						
+需要配置的变量
+1.用户名
+2.用户id
+恢复默认值
